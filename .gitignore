@@ -1,0 +1,74 @@
+############################
+# OS / Editor files
+############################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+*.log
+
+############################
+# Python
+############################
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+myenv/
+.venv/
+ENV/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+############################
+# FastAPI / ML specific
+############################
+# Model artifacts (usually large)
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# If you want to track models, REMOVE the above lines
+
+############################
+# Environment variables
+############################
+.env
+.env.local
+.env.*.local
+
+############################
+# React / Node
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+build/
+dist/
+
+# React env files
+.env.development
+.env.production
+
+############################
+# Misc
+############################
+.cache/
