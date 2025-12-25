@@ -39,9 +39,9 @@ htmlcov/
 # FastAPI / ML specific
 ############################
 # Model artifacts (usually large)
-models/*.pt
-models/*.pth
-models/*.onnx
+# models/*.pt
+# models/*.pth
+# models/*.onnx
 
 # If you want to track models, REMOVE the above lines
 

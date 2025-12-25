@@ -20,8 +20,8 @@ ENV/
 .ipynb_checkpoints/
 
 # Ignore model checkpoints (PyTorch, TensorFlow, etc.)
-models/*.pt
-models/*.h5
+# models/*.pt
+# models/*.h5
 
 # Ignore Python packages and distribution artifacts
 *.egg-info/
